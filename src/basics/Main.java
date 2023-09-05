@@ -7,8 +7,8 @@ public class Main {
 		System.out.println("Hello World");
 		Random rand=new Random();
 		Student John=new Student("John",13);
-		for(int i=0;i<10;i++) {
-			float r_grade=rand.nextFloat(2)+8.0F;
+		for(int i=0;i<12;i++) {
+			float r_grade=rand.nextFloat(5)+55.0F;
 			John.add_grade(r_grade);
 		}
 		float avg=John.return_avg_grades();
